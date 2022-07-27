@@ -7,9 +7,20 @@ from time import time
 
 # pip
 from camelcase import CamelCase
+# custom modules
+from validator import validate_email
 
 # print(date.today())
 # print(time())
 
-c = CamelCase()
-print(c.hump("hello there!"))
+# c = CamelCase()
+# print(c.hump("hello there!"))
+
+# validate emails
+email = "sami123@gmail.com";
+
+if validate_email(email):
+    print("Email is valid.")
+else:
+    print("Email is invalid.")
+
