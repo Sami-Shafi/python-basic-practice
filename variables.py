@@ -13,3 +13,6 @@ VARIABLE RULES:
   - Must start with a letter or an underscore
   - Can have numbers but can not start with one
 """
+# multiple comment
+x, y, name, is_cool = (1, 2.44, "sami", True)
+print(type(name))
